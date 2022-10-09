@@ -1,5 +1,5 @@
-# Compile By : Swajon Ahmed
-# Github : https://github.com/SwajonAhmedOfficial
+# Compile By : JISHAN AHAMMED
+# Github : https://github.com/JISHAN76
 # Python Version 3.10.4
 
 import marshal
